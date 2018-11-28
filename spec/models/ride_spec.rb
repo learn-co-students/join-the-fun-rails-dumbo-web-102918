@@ -5,6 +5,7 @@ describe Ride do
 
   it 'belongs to a passenger' do
     passenger = Passenger.create
+
     ride.passenger = passenger
     ride.save
 
